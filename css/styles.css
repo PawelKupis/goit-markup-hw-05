@@ -58,15 +58,13 @@ img {
   cursor: pointer;
 }
 .header-btn:hover,
-.header-btn:focus,
+:focus,
 .filters-list-btn:hover,
-.filters-list-btn:focus {
+:focus,
+:active {
   background: var(--main-color);
   color: var(--white);
 }
-
-
-
 /* ########### END COMPONENT ############## */
 
 /* ########### MENU ############## */
