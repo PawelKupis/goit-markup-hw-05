@@ -298,6 +298,7 @@ a:active:after {
   bottom: 0px;
   left: -50%;
   right: 50%;
+  transform: translate(50%, 0%);
   margin: 0 auto;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -314,8 +315,6 @@ text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--white);
-
-
 }
 .ourteam {
   background-color: #f5f4fa;
