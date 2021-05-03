@@ -287,6 +287,36 @@ a:active:after {
 .ourteam-list-item:not(:last-child) {
   margin-right: 30px;
 }
+.whatwedo-list-item{
+  position: relative;
+}
+.whatwedo-list-img{
+  
+}
+.whatwedo-list-item >.whatwedo-list-about{
+  position: absolute;
+  bottom: 0px;
+  left: -50%;
+  right: 50%;
+  margin: 0 auto;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);;
+}
+.whatwedo-list-about{
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--white);
+
+
+}
 .ourteam {
   background-color: #f5f4fa;
   width: 1600px;
@@ -443,7 +473,7 @@ left: 0px;
 top: 0px;
 width: 100%;
 height: 100%;
-background: rgba(0, 0, 0, 0.2);
+background: rgba(99, 62, 62, 0.2);
 }
 .modal{
   position: absolute;
