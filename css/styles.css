@@ -510,6 +510,7 @@ cursor: pointer;
   position: relative;
   width: 11px;
   height: 11px;
+  margin: 0 auto;
 }
 .is-hidden{
   opacity: 0;
