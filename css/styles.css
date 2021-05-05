@@ -296,9 +296,6 @@ img {
 .whatwedo-list-item{
   position: relative;
 }
-.whatwedo-list-img{
-  
-}
 .whatwedo-list-item >.whatwedo-list-about{
   position: absolute;
   bottom: 0px;
@@ -477,7 +474,7 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
 /* ########### END FOOTER ############## */
 
 .backdrop{
-  position: fixed;
+position: fixed;
 left: 0px;
 top: 0px;
 width: 100%;
