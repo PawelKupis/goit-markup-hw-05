@@ -532,9 +532,11 @@ cursor: pointer;
 }
 .filters-list-item:not(:last-child) {
   margin-right: 8px;
+  
 }
 
 .filters-list-btn {
+  border: 0px;
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
